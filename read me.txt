@@ -1,0 +1,49 @@
+ 1	Tạo các Class 	
+	- Tạo được các Class User, TodoTask theo đúng yêu cầu. => mới tạo class User, thiếu todotask => Ok
+
+2	Chức năng: Register 	
+	- Tạo được chức năng Đăng ký tài khoản. => OK
+	- Validate thông tin người dùng nhập vào theo đúng yêu cầu. => Ok
+	- Lưu được dữ liệu xuống LocalStorage. => Ok
+			
+3	Chức năng: Login
+	- Tạo được chức năng đăng nhập. => Ok
+	- Validate dữ liệu nhập vào. => Ok
+	- Nếu người dùng đăng nhập thành công, lưu thông tin người dùng hiện tại xuống dưới LocalStorage. => Ok
+4	Home Page
+	- Nếu người dùng chưa đăng nhập, bạn cần hiển thị màn hình gồm nút đăng nhập và đăng ký. => Ok
+	- Nếu người dùng đã đăng nhập, bạn sẽ hiển thị thông điệp chào mừng như sau: "Welcome + firstname" và nút Logout => Ok
+5	Chức năng: Logout
+	- Tạo được chức năng Logout cho ứng dụng. => Ok
+
+6	Hiển thị các bài viết
+	- Sử dụng new API để lấy dữ liệu về các bài viết và hiển thị ra cho người dùng. => Ok
+
+7	Chuyển trang cho các bài viết
+	- Xử lý được việc chuyển trang để xem các bài viết tiếp theo. => Ok
+	- Khi nhấn vào nút, số page hiện tại được cập nhật tương ứng. => Ok
+	- Khi đang ở Page số 1 thì nút "Previous" sẽ bị ẩn đi. => Ok
+	- Nếu như không thể lấy thêm các bài viết nữa, nút "Next" sẽ bị ẩn đi. => Ok
+
+8	Hiển thị Todo List
+	- Tạo được chức năng Todo List cho ứng dụng. => OK
+	- Lưu dữ liệu vào LocalStorage. => Ok
+	- Hiển thị các Task của owner hiện tại. => Ok
+	- Khi click vào một Task thì bạn có thể đánh dấu là Task đó đã hoàn thành hoặc chưa hoàn thành,
+	dữ liệu này cũng được cập nhật vào LocalStorage tương ứng. => Ok
+	- Khi click vào nút Delete ở bên cạch các Task, xóa task tương ứng ra khỏi danh sách. => Ok
+
+9	Thay đổi thiết lập
+	- Tạo trang để người dùng thay đổi các tham số. => Ok
+	- Có validate dữ liệu nếu người dùng không nhập. => Chưa
+	- Sau khi save, trang News được hiển thị theo các tham số vừa nhập. => Ok
+10	Clean Code
+	- Các đoạn code được viết rõ ràng, có comment cụ thể. => Ok
+11	Tìm kiếm bài viết theo từ khóa
+	- Tạo trang để người dùng có thể tìm kiếm các bài viết theo từ khóa. => Ok
+	- Có validate xem người dùng đã nhập từ khóa hay chưa. => OK
+
+
+
+api1: c18b8d113f04470aa5dbb01c2e2b9d92
+api2: fcb68b1410f24e608a015207a63fc487
